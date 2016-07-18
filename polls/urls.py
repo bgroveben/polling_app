@@ -2,6 +2,7 @@ from django.conf.urls import url
 
 from . import views
 
+app_name = 'polls' # namespace URL name in case another app in the Django project has the same name 
 urlpatterns = [
     # example: /polls/
     url(r'^$', views.index, name='index'),
