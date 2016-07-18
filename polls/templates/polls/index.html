@@ -1,7 +1,9 @@
 {% if latest_question_list %}
     <ul>
     {% for question in latest_question_list %}
-        <li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li>
+        <!-- Remove hardcoded url: see urls.py file for views.detail url definition -->
+        <!-- If you want to change the URL to something else, do it in the urls.py file -->
+        <li><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></li>
     {% endfor %}
     </ul>
 {% else %}
