@@ -5,7 +5,7 @@ This project is ripped from the [Django tutorial](https://docs.djangoproject.com
 
 I am using Python version 3.5.1 and Django version 1.9.7
 
-I am [here](https://docs.djangoproject.com/en/1.9/intro/tutorial04/).
+I am [here](https://docs.djangoproject.com/en/1.9/intro/tutorial04/#use-generic-views-less-code-is-better).
 
 Get this thing up and running by opening the terminal, going to the root directory and:
 
