@@ -113,3 +113,10 @@ class QuestionIndexDetailTests(TestCase):
         url = reverse('polls:detail', args=(past_question.id,))
         response = self.client.get(url)
         self.assertContains(response, past_question.question_text)
+
+"""
+Rules of Thumb
+- A separate TestClass for each model or view.
+- A separate test method for each set of conditions you want to test.
+- Test method names that describe what they do.
+"""
