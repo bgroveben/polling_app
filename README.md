@@ -15,3 +15,5 @@ OR
 [localhost:8000/admin](http://127.0.0.1:8000/admin/)  
 username: admin  
 password: djangoadmin  
+
+Silly Monty Python frog gif can be found at [giphy.com](https://giphy.com/gifs/explain-python-gilliam-hPkgDK7VX6Pp6). Thanks Terry Gilliam!
