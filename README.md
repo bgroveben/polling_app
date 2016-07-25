@@ -5,7 +5,9 @@ This project is ripped from the [Django tutorial](https://docs.djangoproject.com
 
 I am using Python version 3.5.1 and Django version 1.9.7
 
-I am [here](https://docs.djangoproject.com/en/1.9/intro/reusable-apps/).
+I am finished for now, but this project could use a bit more testing and some thorough documentation.
+
+I moved the 'polls' directory to the 'django-polls' app for packaging; it can be installed/uninstalled with pip.
 
 Get this thing up and running by opening the terminal, going to the root directory and:
 
